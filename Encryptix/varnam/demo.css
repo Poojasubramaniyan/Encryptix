@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px; /* increased font size */
+}
+
+h1 {
+  text-align: center;
+  color: #202A44;
+  padding: 20px;
+  font-size: 48px; /* increased font size */
+}
+
+nav {
+  background-color: violet;
+  display: grid;
+  place-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul a {
+  display: inline-block;
+  padding: 30px;
+  text-decoration: italic;
+  color: #A020F0;
+  transition: 0.5s ease-in; 
+  font-size: 60px; /* increased font size */
+}
+
+nav ul a:hover {
+  background-color: #9FD1F5;
+  color: white;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 60px 4px;
+  grid-column-gap: 35px;
+  grid-row-gap: 60px;
+  border-radius: 7px;
+}
+
+.item {
+  text-align: center;
+}
+
+.item img {
+  width: 60%;
+  height: 400px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.2s ease;
+  border-radius: 3px;
+  margin: 20px auto;
+}
+
+.item img:hover {
+  transform: scale(1.04);
+}
+
+.item h4 {
+  padding: 20px;
+  text-align: center;
+  font-size: 27px; /* increased font size */
+}
+
+.item button {
+  background-color: #ff0000; /* replace with your desired color code */
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  outline: black;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 32px;
+  display: block;
+  margin: 20px auto;
+  transition: 0.2s all;
+}
+
+.item button:hover {
+  background-color: #ff0000; /* replace with your desired hover color code */
+  transform: scale(1.08);
+}
+
+marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+marquee h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.contact {
+  background-color: #fff;
+  padding: 40px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.contact a:hover {
+  color: #0055CC;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+body {
+  background-color: #9FD1F5; /* replace with your desired color code */
+  height: 100vh;
+  margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

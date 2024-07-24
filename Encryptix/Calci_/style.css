@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#display {
+    width: 250px;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+td {
+    padding: 10px;
+}
+
+.num-button {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.num-button:hover {
+    background-color: #3e8e41;
+}
+
+.op-button {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: #fff;
+    cursor: pointer;
+}
+
+.op-button:hover {
+    background-color: #3e8e41;
+}
+
+.eq-button {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: #fff;
+    cursor: pointer;
+}
+
+.eq-button:hover {
+    background-color: #3e8e41;
+}
+
+.clear-button {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color:#2196F3;
+    color: #fff;
+    cursor: pointer;
+}
+
+.clear-button:hover {
+    background-color: #3e8e41;
+}
